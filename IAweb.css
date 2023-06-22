@@ -1,0 +1,74 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    top: 10px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  /* Estilos para la navegación */
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  nav li {
+    margin-right: 50px;
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h1{
+    color: black;
+    margin: 50px 0px 10px 0px;
+  }
+
+  h2,
+  h3 {
+    color: #000;
+  }
+  
+  /* Estilos para el botón de contacto */
+  button {
+    background-color: #ffcc00;
+    border-radius: 4px;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: inherit;
+    padding: .5rem .75rem;
+  }
+
+  #logo{
+max-width: 50%;
+max-height: 50%;
+height: auto;
+width: auto;
+  }
